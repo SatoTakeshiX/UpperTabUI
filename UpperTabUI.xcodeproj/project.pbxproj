@@ -14,6 +14,11 @@
 		30DDC2D423091BFF00831DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DDC2D223091BFF00831DF4 /* LaunchScreen.storyboard */; };
 		30DDC2DF23091BFF00831DF4 /* UpperTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDC2DE23091BFF00831DF4 /* UpperTabUITests.swift */; };
 		30DDC2EA23091BFF00831DF4 /* UpperTabUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDC2E923091BFF00831DF4 /* UpperTabUIUITests.swift */; };
+		30DDC2F923091EAA00831DF4 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDC2F723091EAA00831DF4 /* TimeLineViewController.swift */; };
+		30DDC2FA23091EAA00831DF4 /* TimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DDC2F823091EAA00831DF4 /* TimeLineViewController.xib */; };
+		30DDC2FD23091EBD00831DF4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDC2FB23091EBD00831DF4 /* HistoryViewController.swift */; };
+		30DDC2FE23091EBD00831DF4 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DDC2FC23091EBD00831DF4 /* HistoryViewController.xib */; };
+		30DDC300230AD32900831DF4 /* UpperTabPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDC2FF230AD32900831DF4 /* UpperTabPageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		30DDC2E523091BFF00831DF4 /* UpperTabUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpperTabUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DDC2E923091BFF00831DF4 /* UpperTabUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTabUIUITests.swift; sourceTree = "<group>"; };
 		30DDC2EB23091BFF00831DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DDC2F723091EAA00831DF4 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		30DDC2F823091EAA00831DF4 /* TimeLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeLineViewController.xib; sourceTree = "<group>"; };
+		30DDC2FB23091EBD00831DF4 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		30DDC2FC23091EBD00831DF4 /* HistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		30DDC2FF230AD32900831DF4 /* UpperTabPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTabPageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 				30DDC2C923091BFD00831DF4 /* AppDelegate.swift */,
 				30DDC2CB23091BFD00831DF4 /* ViewController.swift */,
 				30DDC2CD23091BFD00831DF4 /* Main.storyboard */,
+				30DDC2FF230AD32900831DF4 /* UpperTabPageController.swift */,
+				30DDC2FB23091EBD00831DF4 /* HistoryViewController.swift */,
+				30DDC2FC23091EBD00831DF4 /* HistoryViewController.xib */,
 				30DDC2D023091BFF00831DF4 /* Assets.xcassets */,
 				30DDC2D223091BFF00831DF4 /* LaunchScreen.storyboard */,
 				30DDC2D523091BFF00831DF4 /* Info.plist */,
+				30DDC2F723091EAA00831DF4 /* TimeLineViewController.swift */,
+				30DDC2F823091EAA00831DF4 /* TimeLineViewController.xib */,
 			);
 			path = UpperTabUI;
 			sourceTree = "<group>";
@@ -230,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30DDC2D423091BFF00831DF4 /* LaunchScreen.storyboard in Resources */,
+				30DDC2FA23091EAA00831DF4 /* TimeLineViewController.xib in Resources */,
 				30DDC2D123091BFF00831DF4 /* Assets.xcassets in Resources */,
+				30DDC2FE23091EBD00831DF4 /* HistoryViewController.xib in Resources */,
 				30DDC2CF23091BFD00831DF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DDC300230AD32900831DF4 /* UpperTabPageController.swift in Sources */,
 				30DDC2CC23091BFD00831DF4 /* ViewController.swift in Sources */,
 				30DDC2CA23091BFD00831DF4 /* AppDelegate.swift in Sources */,
+				30DDC2F923091EAA00831DF4 /* TimeLineViewController.swift in Sources */,
+				30DDC2FD23091EBD00831DF4 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

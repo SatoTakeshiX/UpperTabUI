@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    @IBOutlet private weak var containerView: UIView!
 
+    let upperTabPageViewController = UpperTabPageController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        addChild(upperTabPageViewController)
+        containerView.addSubview(upperTabPageViewController.view)
+        upperTabPageViewController.didMove(toParent: self)
     }
-
-
+    
+    @IBAction func tappedTimeLine(_ sender: UIButton) {
+        upperTabPageViewController.setTab(indexType: .timeLine)
+    }
+    
+    @IBAction func tappedHistory(_ sender: UIButton) {
+        upperTabPageViewController.setTab(indexType: .history)
+    }
 }
 
